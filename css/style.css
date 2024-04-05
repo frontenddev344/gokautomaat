@@ -357,3 +357,78 @@ img.img-overlay-image.aircon img {
 .slotmachine-wrapper {
     margin-top: 56px;
 }
+
+.img-overlay.discover:hover .text-over {
+    opacity: 1;
+}
+
+.img-overlay.discover {
+    height: 300px;
+}
+
+.img-overlay.discover .text-over h3 {
+    font-size: 26px;
+}
+
+.img-overlay.discover a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.img-overlay.discover a img {
+    transition: all 0.3s ease-in-out;
+}
+
+.img-overlay.discover a img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* Style the accordion items */
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the accordion headings */
+.accordion-heading {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the active (open) accordion heading */
+.accordion-heading.active {
+    background-color: #ddd;
+}
+
+/* Style the accordion content (hidden by default) */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 20px;
+}
+
+/* Style the active accordion content */
+.accordion-content.active {
+    max-height: 500px;
+    /* Adjust based on content height */
+    padding: 10px 20px;
+}
+
+/* Style the accordion icon */
+.accordion-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.accordion-heading.active .accordion-icon {
+    transform: translateY(-50%) rotate(180deg);
+}
