@@ -395,10 +395,15 @@ img.img-overlay-image.aircon img {
 /* Style the accordion headings */
 .accordion-heading {
     background-color: #f4f4f4;
-    padding: 10px 20px;
+    padding: 20px 20px;
     cursor: pointer;
     position: relative;
     transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.accordion-content p {
+    font-size: 18px;
 }
 
 /* Style the active (open) accordion heading */
@@ -436,4 +441,15 @@ img.img-overlay-image.aircon img {
 .accordion-heading.active .accordion-icon {
     transform: translateY(-50%) rotate(180deg);
     /* Rotate the arrow when the accordion is active */
+}
+
+.veelgestelde-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.veelgestelde-box h3 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
