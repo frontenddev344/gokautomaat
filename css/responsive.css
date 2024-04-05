@@ -72,17 +72,14 @@
 
     }
 
-    footer.footer .knsl-footer-social {
+    .img-overlay.discover {
         margin-bottom: 30px;
     }
 
-    footer.footer .knsl-footer-about {
-        width: 100%;
-    }
-
-    .diverse-wrapper .row .col-lg-4 {
+    .img-overlay {
         margin-bottom: 30px;
     }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -95,6 +92,14 @@
         height: 550px;
     }
 
+    .slotmachine-para p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .slotmachine-wrapper {
+        margin-top: 0px; 
+    }
 }
 
 @media screen and (max-width: 575px) {}
