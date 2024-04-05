@@ -165,6 +165,10 @@ header.page-header.is-sticky .site-navbar ul li a {
     transform: translateY(6px);
 }
 
+.is-sticky .nav-toggler span {
+    color: var(--black);
+}
+
 
 
 .nav-toggler.toggler-open span {
