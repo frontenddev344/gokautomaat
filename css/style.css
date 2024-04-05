@@ -532,7 +532,7 @@ section.terms {
 
 }
 
-.eiffel figure  a{
+.eiffel figure a {
     overflow: hidden;
     display: block;
 }
@@ -554,4 +554,15 @@ section.terms {
     font-size: 20px;
     line-height: 33px;
     color: var(--black);
+}
+
+section.hero-sec.inner-page.evenementen {
+    background: url(../images/Evenementen.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section.hero-sec.inner-page.moet{
+    background: url(../images/moet-chandon.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
 }
