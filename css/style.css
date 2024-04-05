@@ -385,10 +385,11 @@ img.img-overlay-image.aircon img {
 }
 
 
-
 /* Style the accordion items */
 .accordion-item {
     border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    /* Add margin to create space between accordion items */
 }
 
 /* Style the accordion headings */
@@ -414,12 +415,15 @@ img.img-overlay-image.aircon img {
 }
 
 /* Style the active accordion content */
-.accordion-content.active {
+.accordion-content.show {
     max-height: 500px;
-    /* Adjust based on content height */
-    padding: 10px 20px;
+    /* Set max-height to desired value */
+    padding: 14px 20px;
+    display: block;
+    /* Ensure content is visible when shown */
 }
 
+/* Style the accordion icon */
 /* Style the accordion icon */
 .accordion-icon {
     position: absolute;
@@ -431,4 +435,5 @@ img.img-overlay-image.aircon img {
 
 .accordion-heading.active .accordion-icon {
     transform: translateY(-50%) rotate(180deg);
+    /* Rotate the arrow when the accordion is active */
 }
