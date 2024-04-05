@@ -100,6 +100,9 @@
     .slotmachine-wrapper {
         margin-top: 0px; 
     }
+    .footer-logo {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 575px) {}
