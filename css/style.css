@@ -171,12 +171,6 @@ header.page-header.is-sticky .site-navbar ul li a {
     background-color: var(--black);
 }
 
-button.nav-toggler.toggler-open .nav-toggler span,
-button.nav-toggler.toggler-open .nav-toggler span:before,
-button.nav-toggler.toggler-open .nav-toggler span:after {
-    background: #fff;
-}
-
 
 .nav-toggler.toggler-open span {
     background-color: transparent;
