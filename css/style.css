@@ -520,3 +520,38 @@ section.terms {
     padding-bottom: 15px;
     font-size: 18px;
 }
+
+
+.has-to-do-wrapper {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 1rem;
+    margin-bottom: 30px;
+
+}
+
+.eiffel figure  a{
+    overflow: hidden;
+    display: block;
+}
+
+.eiffel img {
+    border-radius: 1rem;
+    height: 350px;
+    transition: all 0.3s ease-in-out;
+}
+
+.boottocht h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 40px;
+}
+
+.boottocht p {
+    font-size: 20px;
+    line-height: 33px;
+    color: var(--black);
+}
