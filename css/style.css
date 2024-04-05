@@ -385,6 +385,10 @@ img.img-overlay-image.aircon img {
 }
 
 
+section.veelgestelde {
+    margin-bottom: 60px;
+}
+
 /* Style the accordion items */
 .accordion-item {
     border-bottom: 1px solid #ddd;
