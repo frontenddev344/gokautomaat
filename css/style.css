@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 :root {
@@ -163,6 +164,8 @@ header.page-header.is-sticky .site-navbar ul li a {
     content: "";
     transform: translateY(6px);
 }
+
+
 
 .nav-toggler.toggler-open span {
     background-color: transparent;
@@ -456,4 +459,60 @@ section.veelgestelde {
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
+}
+
+section.hero-sec.inner-page {
+    height: 550px;
+}
+
+section.hero-sec.inner-page.privacy {
+    background: url(../images/privacy.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-inner h2 {
+    font-size: 4.625rem;
+    line-height: 5.625rem;
+    color: var(--white);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+section.terms {
+    padding: 60px 0 0 0;
+}
+
+.condition_wrap h5 {
+    font-size: 23px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.condition_wrap p {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.condition_wrap p {
+    padding-bottom: 20px;
+}
+
+.condition_wrap ul li::before {
+    position: absolute;
+    content: "";
+    background: #000;
+    width: 8px;
+    height: 8px;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+}
+
+.condition_wrap ul li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
 }
