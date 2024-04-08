@@ -48,3 +48,9 @@ for (var i = 0; i < accordions.length; i++) {
         }
     });
 }
+
+
+
+$("#cookie-popup button").click(function () {
+    $("#cookie-popup").fadeOut();
+});
