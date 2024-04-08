@@ -737,3 +737,7 @@ section#luxurious .row .col-lg-6.col-md-6 {
     -webkit-transform: scale(1.2, 1.2);
     /* Safari and Chrome */
 }
+
+.text p {
+    margin-bottom: 0;
+}

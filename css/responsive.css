@@ -10,6 +10,10 @@
     .content-inner {
         margin-top: 40px;
     }
+
+    .text {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -83,6 +87,37 @@
     .content-inner h2 {
         font-size: 30px;
     }
+
+    .boottocht {
+        margin-top: 24px;
+    }
+
+    .veelgestelde-box h3 {
+        font-size: 24px;
+    }
+
+    .boottocht h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .boottocht p {
+        font-size: 16px;
+        line-height: 30px;
+
+    }
+
+    section.slotmachine.one-resrt {
+        margin-bottom: 0;
+    }
+
+    section.slotmachine.one {
+        margin: 0;
+    }
+
+    .slotmachine-para p {
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -114,6 +149,19 @@
 
     .accordion-content p {
         font-size: 16px;
+    }
+
+    .text-over h3 {
+        font-size: 24px;
+    }
+
+    .text-over {
+        padding: 0 15px;
+    }
+
+    .eiffel img {
+        height: 250px;
+        object-fit: cover;
     }
 }
 
