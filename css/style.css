@@ -260,7 +260,7 @@ section.slotmachine {
 }
 
 .slotmachine-para p {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 2.5rem;
     color: var(--black);
     font-weight: 400;
@@ -633,4 +633,11 @@ footer.footer {
     margin-top: 20px;
     display: block;
     font-size: 18px;
+}
+
+.slotmachine-para h5 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000;
 }
