@@ -31,7 +31,7 @@
         top: 0px;
         flex-direction: column;
         align-items: center;
-        background-color: var(--red);
+        background-color: var(--white);
         max-height: 0;
         overflow: hidden;
         transition: 0.3s;
@@ -45,11 +45,11 @@
 
     .site-navbar ul li a {
         padding: 25px;
-        color: #fff;
+        color: var(--black);
     }
 
     .site-navbar ul li a.active {
-        color: var(--white) !important;
+        color: var(--red) !important;
     }
 
     .site-navbar ul.open {
@@ -80,6 +80,9 @@
         margin-bottom: 30px;
     }
 
+    .content-inner h2 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -97,18 +100,34 @@
         line-height: 30px;
     }
 
-    .slotmachine-wrapper {
-        margin-top: 0px;
+    section.slotmachine .slotmachine-wrapper:last-child {
+        margin-top: 0;
     }
 
     .footer-logo {
         margin-bottom: 20px;
     }
+
+    .accordion-heading {
+        font-size: 16px;
+    }
+
+    .accordion-content p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 575px) {}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    .overlay .text h3 {
+        font-size: 22px;
+    }
+
+    .text {
+        width: 90%;
+    }
+}
 
 @media screen and (max-width: 424px) {
     .content-inner h1 {

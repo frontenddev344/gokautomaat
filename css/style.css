@@ -152,7 +152,7 @@ header.page-header.is-sticky .site-navbar ul li a {
 .nav-toggler span {
     width: 28px;
     height: 3px;
-    background-color: var(--white);
+    background-color: var(--red);
     display: block;
     transition: 0.3s;
 }
@@ -160,7 +160,7 @@ header.page-header.is-sticky .site-navbar ul li a {
 .nav-toggler span:before {
     width: 28px;
     height: 3px;
-    background-color: var(--white);
+    background-color: var(--red);
     display: block;
     transition: 0.3s;
     content: "";
@@ -170,7 +170,7 @@ header.page-header.is-sticky .site-navbar ul li a {
 .nav-toggler span:after {
     width: 28px;
     height: 3px;
-    background-color: var(--white);
+    background-color: var(--red);
     display: block;
     transition: 0.3s;
     content: "";
@@ -304,7 +304,7 @@ section.slotmachine {
     padding: 10px;
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
-    background-color: #ff0d084a;
+    background-color: #ff0d08c2;
     height: 100%;
     display: flex;
     align-items: center;
@@ -718,4 +718,22 @@ section#luxurious .row .col-lg-6.col-md-6 {
     background-color: #000;
     color: #fff;
     border: 1px solid transparent;
+}
+
+.eiffel figure {
+    overflow: hidden;
+    border-radius: 1rem;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+}
+
+.eiffel figure:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2, 1.2);
+    /* Safari and Chrome */
 }
