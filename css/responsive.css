@@ -14,6 +14,10 @@
     .text {
         width: 90%;
     }
+
+    section#luxurious {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -181,5 +185,14 @@
     .content-inner h1 {
         font-size: 1.875rem;
         line-height: 2.75rem;
+    }
+    .text ul li {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .text p {
+
+        line-height: 28px;
+        font-size: 14px;
     }
 }
