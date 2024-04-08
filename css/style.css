@@ -199,13 +199,13 @@ section.hero-sec {
 }
 
 section.hero-sec::after {
-    content: '';
+    content: "";
     position: absolute;
-    inset: 0;
+    inset: 0px;
     z-index: -1;
     height: 100%;
     width: 100%;
-    background: linear-gradient(30deg, rgba(17, 17, 17, 0.4) 0%, rgba(7, 7, 7, 0) 75%);
+    background: linear-gradient(30deg, rgb(17 17 17) 0%, rgba(7, 7, 7, 0) 75%);
 }
 
 .content-inner h1 {
@@ -640,4 +640,10 @@ footer.footer {
     font-weight: 600;
     text-transform: capitalize;
     color: #000;
+}
+
+section.hero-sec.inner-page.beste-casinos {
+    background: url(../images/Best-Casinos.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
 }
