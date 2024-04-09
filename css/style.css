@@ -453,19 +453,11 @@ section.veelgestelde {
     /* Ensure content is visible when shown */
 }
 
-/* Style the accordion icon */
-/* Style the accordion icon */
-.accordion-icon {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: transform 0.3s ease;
-}
-
-.accordion-heading.active .accordion-icon {
-    transform: translateY(-50%) rotate(180deg);
-    /* Rotate the arrow when the accordion is active */
+.accordion-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
 }
 
 .veelgestelde-box {
